@@ -1,0 +1,17 @@
+{
+  "hash": "0a2b54bf8a163f903008e1560bfe6d38",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Polling Places Report - Alabama\"\nauthor: \"Isabella Velásquez\"\ndate: today\nformat: \n  html:\n    embed-resources: true\nexecute:\n  echo: false\n  message: false\n  warning: false\n---\n\n\n\nIn this report, we present a detailed overview of polling places in various counties across the United States, providing information on the total number of polling places and showcasing example locations for each county on election day.[^1]\n\n[^1]: Data from https://github.com/rfordatascience/tidytuesday\n\n\n\n::: {.cell}\n\n:::\n\n\n\n## Alabama\n\n### Overview\n\n:::: {layout-ncol=\"2\"}\n::: {}\n\n* Total number of counties: **65**\n* Total number of polling places: **2075**\n* Election Day: **2020-11-03**\n\n:::\n\n::: {}\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![Polling locations in the state](01-rough-draft_files/figure-html/fig-statemap-1.png){#fig-statemap width=672}\n:::\n:::\n\n\n\n:::\n::::\n\n\n\n{{< pagebreak >}}\n\n\n\n\n### POLLING PLACES BY COUNTY\n\nSee polling place locations in @fig-statemap.\n\n#### AUTAUGA\n\n* Total polling places: 19\n* Example locations:\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n\n|name                          |\n|:-----------------------------|\n|AUTAUGAVILLE VOL FIRE DEPT    |\n|BILLINGSLEY COMMUNITY CENTER  |\n|BOONE'S CHAPEL                |\n|BOOTH VOL FIRE DEPT           |\n|CAMELLIA BAPTIST CH           |\n|CENTRAL AL ELECTRIC COOP BLDG |\n\n\n:::\n:::\n\n\n\n#### BALDWIN\n\n* Total Polling Places: 50\n* Example Locations:\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n\n|name                                |\n|:-----------------------------------|\n|PREC   1 -  LITTLE RIVER VFD        |\n|PREC   2 - TENSAW NEW VFD           |\n|PREC   3 - OLD VAUGHN SCHOOL        |\n|PREC   4 - CROSSROADS DURANT CHURCH |\n|PREC   5 - DOUGLASVILLE BOYKIN CTR  |\n|PREC   6 - BROMLEY VFD SUBST        |\n\n\n:::\n:::\n",
+    "supporting": [
+      "01-rough-draft_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
